@@ -29,7 +29,18 @@ p{
   margin-left: 5%;
   margin-right: 5%;
 }
-
+li {
+  background-image: linear-gradient(to top, rgba(255, 0, 0, 0.9), rgba(255, 255, 255, 0.9));
+  line-height: 2em;
+  display: table-cell;
+  border: 1px solid;
+  text-align: center;
+}
+ul {
+  display: table;
+  padding: 0;
+  width: 100%;
+}
 
 a {
   color:black;
