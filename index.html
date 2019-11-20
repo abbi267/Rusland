@@ -4,6 +4,32 @@
   <meta charset=utf-8>
   <title>Titel brors</title>
   <link rel="stylesheet" type="text/css" href="main.css">
+  <script type="text/javascript">
+  window.onload = function wait() {
+    var x = document.getElementById("footer");
+    setTimeout(function() { togglecookie(x); },2000);
+    setTimeout(function() { togglecookie(x); },8000);
+
+
+  };
+
+  function togglecookie(x) {
+    console.log("scoogh")
+    var x = document.getElementById("footer");
+    if(x.style.display = "none"){
+      x.style.display="block";
+      return;
+    }
+    else {
+      movedown(x);
+    }
+
+  };
+  function movedown(x) {
+    setTimeout(function () {x.style.marginTop=x.style.marginTop+10px;}, 10);
+  };
+
+</script>
 </head>
 
 <body>
@@ -37,13 +63,21 @@
     <!-- Reel info -->
     <h1>Halla squaddet!</h1>
     <h2>Inden for de sidste par uger, var 3.S i rusland. Et dejligt sted, billig vodka, og gode giz. På denne her hjemmeside vil jeg give min veteraninfo videre til de næste generationer af S-klasser, som skal nyde Rusland lige så meget som jeg selv gjorde.</h2><br>
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+
+    <p id="demo"></p>
+
 
   <img src="https://www.akademiskrejsebureau.dk/upload/images/rusland/togrejse/11-Blodskatedralen.jpg" width="400" height="300" display="inline-block"></img>
   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d157623.10660744863!2d30.12528286547773!3d59.92736063294349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2sSankt%20Petersborg%2C%20Rusland!5e0!3m2!1sda!2sdk!4v1573200843610!5m2!1sda!2sdk" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
   </div>
   <div id="right">
   </div>
-
+<div id="footer">
+  <h3>Du accepterer ved brug af denne hjemmeside, at dine oplysninger lagres jf. GDPR. Salg af disse forbeholdes retten til.</h3>
+</div>
 
 
 
