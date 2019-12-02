@@ -1,11 +1,14 @@
 body{
-  background-color: #B31B1B;
+  background-color: rgb(140,0,0);
+
 
 }
 h1{
   font-style: italic;
 }
-p{
+p.strong{
+  font-family: cursive;
+
 
 }
 .start {
@@ -29,13 +32,19 @@ p{
   margin-left: 5%;
   margin-right: 5%;
 }
-
 li {
+  margin-left: 20px;
+
+}
+li.naviger {
   background-image: linear-gradient(to top, rgba(255, 0, 0, 0.9), rgba(255, 255, 255, 0.9));
   line-height: 2em;
   display: table-cell;
   border: 1px solid;
   text-align: center;
+}
+li.naviger:hover{
+  background-image: linear-gradient(to top, rgba(100, 40, 80, 0.9), rgba(255, 255, 255, 0.9));
 }
 ul {
   display: table;
@@ -48,23 +57,42 @@ a {
   display: block;
 }
 #main {
-  height:100%;
   width:70%;
   margin: auto;
   margin-top: 0;
   background-color: white;
   display: inline-block;
-  box-shadow: 2px 2px darkred;
+  box-shadow: 5px 5px black;
   height: 800px;
   padding:5px;
+  float:left;
+}
+#mainl {
+  width:70%;
+  margin: auto;
+  margin-top: 0;
+  background-color: white;
+  display: inline-block;
+  box-shadow: 5px 5px black;
+  height: 1600px;
+  padding:5px;
+  float:left;
 }
 #left {
   width:15%;
+  margin: auto;
+  margin-top: 0;
   display:inline-block;
   font-family: cursive;
+float:left;
+  padding:5px;
 }
 #right {
-  width:15%;
+  width:10%;
+float:left;
+padding-left: 20px;
+font-size: 150%;
+
 }
 #footer {
   width:100%
