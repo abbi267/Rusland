@@ -4,7 +4,7 @@ Dette projekt blev udført i 2019 som en del af et informatik-kursus og fokusere
 
 Blev indtil for nyligt hostet på github, og ikke længere af tydelige årsager. 
 
-Useriøst projekt, men inkluderer både embedding af interaktive kort, nogen JavaScript, og en (fortsat funktionel!) en PayPal donations-knap. 
+Useriøst projekt, men inkluderer både embedding af interaktive kort, nogen JavaScript, og en (fortsat funktionel!) PayPal donations-knap. 
 
 
 
